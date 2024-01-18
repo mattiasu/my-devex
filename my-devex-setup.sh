@@ -15,6 +15,7 @@ PACKAGES=(
     go
     python
     node
+    jump
 )
 
 echo "Installing packages..."
@@ -23,7 +24,6 @@ brew install ${PACKAGES[@]}
 CASKS=(
     visual-studio-code
     google-chrome
-    jump
     slack
 )
 
